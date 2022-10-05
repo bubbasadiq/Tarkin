@@ -14,7 +14,7 @@ import tools from "../public/assets/tools.png"
 export default function WhyUS() {
   return (
     <>
-    <main className="bg-gradient-to-br   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
+    <main className="bg-gradient-to-br mx-2  h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
     <div class="flex-auto w-50 bg-blue">
     <div class="relative" style={{marginTop:50}}>
     <div class="cursor-pointer absolute top-10 left-20 mt-12 ml-20 w-50 hover:shadow-outline">

@@ -7,7 +7,7 @@ import rana from "../public/assets/rana.png"
 
 export default function Partners() {
   return (
-    <main className=" justify-center    flex  items-stretch" style={{backgroundColor:"#F5FFF5"}}>
+    <main className=" justify-center mx-2   flex  items-stretch" style={{backgroundColor:"#F5FFF5"}}>
       <div className=" items-center ">
   <h1  className="mt-4 align-center px-12  font-bold font-serif text-2xl tracking-tight text-gray-1000  sm:mt-5  ">
   Our  Trusted Partners

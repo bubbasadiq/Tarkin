@@ -9,7 +9,7 @@ export default function Navbar() {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 lg:px-16 lg:px-8" >
-            <div className="flex h-16 items-center fixed bg-[#FFFFFF]" style={{width:'100%',zIndex:100}}>
+            <div className="flex h-16 items-center fixed bg-[#FFFFFF] mx-2"  style={{width:'100%',zIndex:100}}>
               <div className="flex flex-1 items-center space-between ">
                 <div className="flex-shrink-0">
                   <img
@@ -23,7 +23,7 @@ export default function Navbar() {
                     alt="Tarkin logo"
                   />
                 </div>
-                <div className="hidden lg:ml-16 sm:block " style={{marginLeft:'30vh'}}>
+                <div className="hidden lg:ml-16 sm:block mx-10 " style={{marginLeft:'30vh'}}>
                   <div className="flex space-x-4 text-gray-500">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md px-3 py-2 text-md text-gray-500 font-medium ">
@@ -62,24 +62,16 @@ export default function Navbar() {
                   Home
                 </Link>
               </Disclosure.Button>
-              <Disclosure.Button className="block">
-                <Link href="/services" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  Services
-                </Link>
-              </Disclosure.Button>
+            
               <Disclosure.Button className="block">
                 <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
                   About Us
                 </Link>
               </Disclosure.Button>
+             
               <Disclosure.Button className="block">
-                <Link href="/commitments" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  Commitments
-                </Link>
-              </Disclosure.Button>
-              <Disclosure.Button className="block">
-                <Link href="/careers" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  Careers
+                <Link href="/contact" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
+                  Contact Us
                 </Link>
               </Disclosure.Button>
             </div>

@@ -36,9 +36,7 @@ export default function Faq() {
     <div className="mt-10 ">
     {faq.map((e,i)=><>
     <Accordion key={i} title={e.title} content={e.content} /> 
-    <div style={{width:'100vh'}}>
     <hr/>
-    </div>
     </>)}
     </div>
    

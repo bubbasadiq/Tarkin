@@ -7,7 +7,7 @@ import lady from "../public/assets/lady.png"
 export default function WhatWeDo() {
   return (
     <>
-    <main className="bg-gradient-to-br   h-screen flex" style={{backgroundColor:"#F5FFF5"}}>
+    <main className="bg-gradient-to-br mx-2  h-screen flex" style={{backgroundColor:"#F5FFF5"}}>
     <div class="flex-auto w-50 bg-blue">
     <div class="relative" style={{marginTop:100}}>
     <div className="absolute top-1 left-20">
@@ -32,7 +32,7 @@ export default function WhatWeDo() {
   </h6>
   </div>
     </main>
-    <main className="bg-gradient-to-br mb-10   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
+    <main className="bg-gradient-to-br mb-10 mx-2   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
     <div class="flex-auto w-50 left-20  md:max-w-2xl sm:col-span-2 mt-40"> 
  
  <h3 className="mt-4 font-serif   font-bold leading-10 ml-20 mr-20  w-50 text-2xl tracking-tight  sm:leading-none ">

@@ -23,7 +23,7 @@ export default function NewsLetter() {
                 type="email"
                 autoComplete="email"
                 required
-                className="bg-transparent  rounded-md border border-[#80CB7B]  py-3 placeholder-gray-500 "
+                className="bg-transparent  rounded-md border border-[#80CB7B]  py-3 placeholder-gray-500 w-36 "
                 placeholder="feliciaarid@gmail.com"
               />
               
