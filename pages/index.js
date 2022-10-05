@@ -11,10 +11,15 @@ import Partners from "../components/partners.jsx";
 import Faq from "../components/faq.jsx";
 import NewsLetter from "../components/newsLetterSignUp.jsx";
 import HomeNavBar from "../components/HomeNav.jsx";
+import Head from "next/head.js";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Tarkin</title>
+        <link rel="icon" href="logo.svg" />
+      </Head>
       <HomeNavBar />
       <HeroSection />
       <WhatWeDo/>
