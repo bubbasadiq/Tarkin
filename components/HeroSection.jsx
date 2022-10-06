@@ -5,9 +5,9 @@ import fp1 from "../public/assets/fp1.png"
 export default function HeroSection() {
   return (
     <main className="bg-gradient-to-br   h-screen">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-0">
         <div className="lg:grid lg:grid-cols-12 lg:gap-8">
-        <div class=" mx-auto max-w-7xl "
+        <div class="  max-w-8xl "
          style={{
       backgroundImage: `url(${head2.src})`,
       width: '100vw',
