@@ -1,14 +1,26 @@
 import Image from "next/image"
-import head2 from "../public/assets/header2.png"
+import scroll from "../public/assets/scroll.png"
 import farming from "../public/assets/farming.png"
 import silo from "../public/assets/silo.png"
 import lady from "../public/assets/lady.png"
+import FlowerUp from "../public/assets/flowerUp.png"
+import flowerIn from "../public/assets/flowerIn.png"
+
+
 
 export default function WhatWeDo() {
   return (
     <>
+    <div style={{backgroundColor:"#F5FFF5",  marginLeft:'auto', margin:'auto', textAlign:'center'}} >
+      <div className="row">
+        
+         <Image src={scroll} alt='' width={'120px'}/>
+        
+          
+      </div>
+    </div>
     <main className="bg-gradient-to-br w-full  h-screen  flex" style={{backgroundColor:"#F5FFF5"}}>
-    <div class="flex-auto w-50 ml-20">
+    <div class="flex-auto w-50 ml-20 ">
     <div class="relative" style={{marginTop:100}}>
     <div className="absolute top-1 left-auto right-10 ">
     <Image width={400} height={400}  src={silo} alt=""/>
@@ -32,23 +44,19 @@ export default function WhatWeDo() {
   </h6>
   </div>
     </main>
-  <main className="bg-gradient-to-br mb-10 w-full   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
-    <div class="flex-auto w-50 left-20  md:max-w-2xl sm:col-span-2 mt-40"> 
- 
- <h3 className="mt-4 font-serif   font-bold leading-10 ml-20 mr-20  w-50 text-2xl tracking-tight  sm:leading-none ">
- We help you make profits while managing your farm inventory
- </h3>
- <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-2/3  ml-20     ">
- We are using technology to reduce post harvest loss encountered by farmers while improving access to high quality commodities. We are building a next generation technology company that's combining the best of software and hardware to tackle food loss and waste.
- </h6>
+  <main className=" mb-10 w-full   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
+    <div className="flex  ml-20" style={{width:355, flexDirection:'column'}}>
+    <h3 className="mt-4 font-serif font-bold  w-96 text-2xl  ">
+    We help you make profits while managing your farm inventory
+    </h3>
+    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-96  ">
+    We are using technology to reduce post harvest loss encountered by farmers while improving access to high quality commodities. We are building a next generation technology company that's combining the best of software and hardware to tackle food loss and waste.  </h6>
 </div>
-    <div class="flex-auto  md:max-w-2xl h-screen w-50 bg-blue">
-    <div class="relative" >
+<div class="flex-auto relative w-80  ml-28 mr-0 mt-0 ">
     <div className="responsive top-0 right-0 bg-blue-500 h-screen" >
               <Image layout="fill"  src={lady}    alt=""/>
     </div>
   
-</div>
   </div>
  
     </main>
