@@ -8,26 +8,26 @@ export default function WhatWeDo() {
   return (
     <>
     <main className="bg-gradient-to-br w-full  h-screen  flex" style={{backgroundColor:"#F5FFF5"}}>
-    <div class="flex-auto w-50 ">
+    <div class="flex-auto w-50 ml-20">
     <div class="relative" style={{marginTop:100}}>
-    <div className="absolute top-1 left-0 ">
-    <Image width={300} height={300}  src={silo} alt=""/>
+    <div className="absolute top-1 left-auto right-10 ">
+    <Image width={400} height={400}  src={silo} alt=""/>
     </div>
-    <div class="cursor-pointer absolute top-10 left-20 mt-12 ml-20 w-50 hover:shadow-outline">
-       <Image width={300} height={300}  src={farming} alt=""/>
+    <div class="cursor-pointer absolute top-10 left-auto right-0 mt-12 ml-20 w-50 hover:shadow-outline">
+       <Image width={400} height={400}  src={farming} alt=""/>
 
     </div>
 </div>
   </div>
-  <div class="flex-auto w-50  ml-0 md:max-w-2xl sm:col-span-2 mt-40">
+  <div class="flex-auto w-50  ml-10 mr-10 mt-36 mb-10 ">
  
-    <h1  className="mt-4 uppercase font-sans  w-50 text-1xl tracking-tight text-gray-400  sm:mt-5 sm:leading-none ">
+    <h1  className="mt-4 uppercase font-sans  w-60 text-1xl tracking-tight text-gray-400  ">
     What does Tarkin do?
     </h1>
-    <h3 className="mt-4 font-serif  w-50 text-2xl tracking-tight  sm:leading-none ">
+    <h3 className="mt-4 font-serif  w-96 text-2xl  ">
     Solving the global food supply and security problems
     </h3>
-    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-50  ">
+    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-96  ">
     It’s common knowledge that smallholder farmers who produce 30% of total food consumed globally are extremely vulnerable to climate change, which increases the risk in agriculture finance significantly and many financial institutions simply stay away from the sector. These farmers are not credit worthy because they have no collateral therefore the value chain is disconnected and fragmented - commodity prices are volatile, and farmers don't get paid well.
   </h6>
   </div>

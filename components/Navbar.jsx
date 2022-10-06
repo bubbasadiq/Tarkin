@@ -14,19 +14,19 @@ export default function Navbar() {
                 <div className="flex-shrink-0">
                   <img
                     className="block h-8 w-auto lg:hidden"
-                    src="/logo.svg"
+                    src="/logo1.svg"
                     alt="Tarkin logo"
                   />
                   <img
                     className="hidden h-8 w-auto lg:block"
-                    src="/logo.svg"
+                    src="/logo1.svg"
                     alt="Tarkin logo"
                   />
                 </div>
-                <div className="hidden lg:ml-16 sm:block mx-10 " style={{marginLeft:'30vh'}}>
+                <div className="hidden  sm:block " style={{marginLeft:'auto', marginRight:'auto', textAlign:'center'}}>
                   <div className="flex space-x-4 text-gray-500">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                    <Link href="/" className="rounded-md px-3 py-2 text-md text-gray-500 font-medium ">
+                    <Link href="/" className="rounded-md  py-2 text-md text-gray-500 font-medium ">
                       HOME
                     </Link>
                    
