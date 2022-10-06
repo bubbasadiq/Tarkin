@@ -19,7 +19,7 @@ export default function WhatWeDo() {
           
       </div>
     </div>
-    <main className="bg-gradient-to-br w-full  h-screen  flex" style={{backgroundColor:"#F5FFF5"}}>
+    <main className="bg-gradient-to-br w-full    flex" style={{backgroundColor:"#F5FFF5"}}>
     <div class="flex-auto w-50 ml-20 ">
     <div class="relative" style={{marginTop:100}}>
     <div className="absolute top-1 left-auto right-10 ">
@@ -44,22 +44,22 @@ export default function WhatWeDo() {
   </h6>
   </div>
     </main>
-  <main className=" mb-10 w-full   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
+  <main className=" mb-10 w-full    flex" style={{backgroundColor:"#FFFFFF"}}>
     <div className="flex mt-24 " style={{width:'60%', flexDirection:'column'}}>
    <div  className="  ml-32">
-    <h3 className="mt-4 font-serif font-bold  w-96 text-2xl  " style={{width: '70%'}}>
+    <h3 className="mt-4 font-serif   font-bold  w-96 text-2xl  " style={{width: '70%'}}>
     We help you make profits while managing your farm inventory
     </h3>
-    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-96  ">
+    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7   " style={{width: '90%'}}>
     We are using technology to reduce post harvest loss encountered by farmers while improving access to high quality commodities. We are building a next generation technology company that's combining the best of software and hardware to tackle food loss and waste.  </h6>
  </div>
- <div style={{position:'left', bottom:0, marginLeft:0}}>
+ <div style={{position:'left'}}>
     
     <Image src={flowerIn} width={200} style={{left:0, bottom:0}} height={200} />   
 </div>
 
 </div>
-<div class="flex-auto relative w-1/2  ml-50 mr-0 mt-0 bg-blue-500 ">
+<div class="flex-auto relative w-1/2  ml-50 mr-0 mt-0 bg-blue-500 " style={{width:'40%'}}>
 
 <Image layout="fill"  src={lady}    alt=""/>
 

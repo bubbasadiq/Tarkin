@@ -11,6 +11,7 @@ export default function Navbar() {
           <div className="mx-auto max-w-full px-4 lg:px-16 lg:px-8" >
             <div className="flex h-16 items-center fixed bg-[#FFFFFF] mx-2"  style={{width:'100%',zIndex:100}}>
               <div className="flex flex-1 items-center space-between ">
+              <a href='/'>
                 <div className="flex-shrink-0">
                   <img
                     className="block h-8 w-auto lg:hidden"
@@ -23,6 +24,7 @@ export default function Navbar() {
                     alt="Tarkin logo"
                   />
                 </div>
+                </a>
                 <div className="hidden  sm:block " style={{marginLeft:'auto', marginRight:'auto', textAlign:'center'}}>
                   <div className="flex space-x-4 text-gray-500">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
@@ -40,7 +42,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className="-mr-2 flex sm:hidden">
+              <div className="-mr-2 flex sm:hidden" style={{zIndex:100}}>
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>

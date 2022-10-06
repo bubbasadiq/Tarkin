@@ -2,6 +2,7 @@ import Image from "next/image"
 import sterling from "../public/assets/sterling.png"
 import afev from "../public/assets/afev.png"
 import rana from "../public/assets/rana.png"
+import partners from "../public/assets/partners.png"
 
 
 
@@ -13,11 +14,11 @@ export default function Partners() {
   Our  Trusted Partners
   </h1>
   
-  <p  className="mt-4    font-sans text-1xl tracking-tight text-gray-500  sm:mt-5  ">
+  <p  className="mt-4    font-sans text-1xl tracking-tight text-[#7C8684]  sm:mt-5  ">
     We’ve created bonds with companies that believe in Tarkin’s goals.  
     </p>
-    <div className="flex flex-row mt-10 mb-20" >
-      <div className="">
+    <div className="flex flex-row mt-10 mb-20 " >
+    {/*}  <div className="">
     <Image width={100} height={35}   src={afev} alt=""/>
     </div>
     <div className="mx-10">
@@ -25,9 +26,11 @@ export default function Partners() {
     </div>
     <div className="">
     <Image width={100} height={35}   src={sterling} alt=""/>
+    </div>*/}
+
+    <Image  src={partners} alt="" width={400} />
     </div>
 
-    </div>
     </div>
     </main>
 
