@@ -19,7 +19,7 @@ export default function WhatWeDo() {
     </div>
 </div>
   </div>
-  <div class="flex-auto w-50  ml-10 mr-10 mt-36 mb-10 ">
+  <div class="flex-auto w-80  ml-28 mr-10 mt-40 ">
  
     <h1  className="mt-4 uppercase font-sans  w-60 text-1xl tracking-tight text-gray-400  ">
     What does Tarkin do?
@@ -27,18 +27,18 @@ export default function WhatWeDo() {
     <h3 className="mt-4 font-serif  w-96 text-2xl  ">
     Solving the global food supply and security problems
     </h3>
-    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-96  ">
+    <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-2/3  ">
     It’s common knowledge that smallholder farmers who produce 30% of total food consumed globally are extremely vulnerable to climate change, which increases the risk in agriculture finance significantly and many financial institutions simply stay away from the sector. These farmers are not credit worthy because they have no collateral therefore the value chain is disconnected and fragmented - commodity prices are volatile, and farmers don't get paid well.
   </h6>
   </div>
     </main>
-    <main className="bg-gradient-to-br mb-10 mx-2   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
+  <main className="bg-gradient-to-br mb-10 w-full   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
     <div class="flex-auto w-50 left-20  md:max-w-2xl sm:col-span-2 mt-40"> 
  
  <h3 className="mt-4 font-serif   font-bold leading-10 ml-20 mr-20  w-50 text-2xl tracking-tight  sm:leading-none ">
  We help you make profits while managing your farm inventory
  </h3>
- <h6 className="mt-4 mr-20 ml-20 font-sans font-left text-lg text-left leading-7 w-50   px-2     ">
+ <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-2/3  ml-20     ">
  We are using technology to reduce post harvest loss encountered by farmers while improving access to high quality commodities. We are building a next generation technology company that's combining the best of software and hardware to tackle food loss and waste.
  </h6>
 </div>
