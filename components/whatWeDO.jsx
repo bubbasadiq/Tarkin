@@ -45,17 +45,23 @@ export default function WhatWeDo() {
   </div>
     </main>
   <main className=" mb-10 w-full   h-screen flex" style={{backgroundColor:"#FFFFFF"}}>
-    <div className="flex  ml-20" style={{width:355, flexDirection:'column'}}>
-    <h3 className="mt-4 font-serif font-bold  w-96 text-2xl  ">
+    <div className="flex mt-40 " style={{width:'60%', flexDirection:'column'}}>
+   <div  className="  ml-32">
+    <h3 className="mt-4 font-serif font-bold  w-96 text-2xl  " style={{width: '70%'}}>
     We help you make profits while managing your farm inventory
     </h3>
     <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-96  ">
     We are using technology to reduce post harvest loss encountered by farmers while improving access to high quality commodities. We are building a next generation technology company that's combining the best of software and hardware to tackle food loss and waste.  </h6>
+ </div>
+ <div style={{position:'left', top:0, marginLeft:0, right:0}}>
+    
+    <Image src={flowerIn} width={200} style={{left:0}} height={200} />   
 </div>
-<div class="flex-auto relative w-80  ml-28 mr-0 mt-0 ">
-    <div className="responsive top-0 right-0 bg-blue-500 h-screen" >
+
+</div>
+<div class="flex-auto relative w-1/2  ml-50 mr-0 mt-0 bg-blue-500 ">
               <Image layout="fill"  src={lady}    alt=""/>
-    </div>
+
   
   </div>
  
