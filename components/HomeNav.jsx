@@ -8,7 +8,7 @@ export default function HomeNavBar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl " >
+          <div className="mx-auto max-w-full " >
             <div className="flex h-16 items-center fixed" style={{width:'100%',zIndex:100, backgroundColor:'linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.0002) 119.59%)', backdropFilter: "blur(4px)"}}>
               <div className="flex  flex-1 items-center space-between ">
                 <div className="flex-shrink-0 ml-12">

@@ -8,7 +8,7 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 lg:px-16 lg:px-8" >
+          <div className="mx-auto max-w-full px-4 lg:px-16 lg:px-8" >
             <div className="flex h-16 items-center fixed bg-[#FFFFFF] mx-2"  style={{width:'100%',zIndex:100}}>
               <div className="flex flex-1 items-center space-between ">
                 <div className="flex-shrink-0">
