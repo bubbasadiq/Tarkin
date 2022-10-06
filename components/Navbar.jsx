@@ -27,15 +27,15 @@ export default function Navbar() {
                   <div className="flex space-x-4 text-gray-500">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md px-3 py-2 text-md text-gray-500 font-medium ">
-                      Home
+                      HOME
                     </Link>
                    
                     <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-white">
-                      About Us
+                      ABOUT US
                     </Link>
                    
                     <Link href="/contact" className="rounded-md px-3 py-2 text-md font-medium text-white">
-                      Contact Us
+                      CONTACT US
                     </Link>
                   </div>
                 </div>

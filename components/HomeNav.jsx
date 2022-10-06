@@ -8,10 +8,10 @@ export default function HomeNavBar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-4 lg:px-16 lg:px-8" >
+          <div className="mx-auto max-w-7xl " >
             <div className="flex h-16 items-center fixed" style={{width:'100%',zIndex:100, backgroundColor:'linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.0002) 119.59%)', backdropFilter: "blur(4px)"}}>
-              <div className="flex flex-1 items-center space-between ">
-                <div className="flex-shrink-0">
+              <div className="flex  flex-1 items-center space-between ">
+                <div className="flex-shrink-0 ml-12">
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="/logo.svg"
@@ -23,19 +23,19 @@ export default function HomeNavBar() {
                     alt="Tarkin logo"
                   />
                 </div>
-                <div className="hidden lg:ml-16 sm:block " style={{marginLeft:'30vh'}}>
-                  <div className="flex space-x-4 text-white">
+                <div className="hidden  sm:block " style={{marginLeft:'auto', marginRight:'auto', textAlign:'center'}}>
+                  <div className="flex space-x-4 text-center justify-center alingn-center text-white">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md px-3 py-2 text-md text-white font-medium ">
-                      Home
+                      HOME
                     </Link>
                    
                     <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-white">
-                      About Us
+                      ABOUT US
                     </Link>
                    
                     <Link href="/contact" className="rounded-md px-3 py-2 text-md font-medium text-white">
-                      Contact Us
+                      CONTACT US
                     </Link>
                   </div>
                 </div>
@@ -59,27 +59,18 @@ export default function HomeNavBar() {
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
               <Disclosure.Button className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">
                 <Link href="/">
-                  Home
+                  HOME
                 </Link>
               </Disclosure.Button>
-              <Disclosure.Button className="block">
-                <Link href="/services" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  Services
-                </Link>
-              </Disclosure.Button>
+                        
               <Disclosure.Button className="block">
                 <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  About Us
+                  ABOUT US
                 </Link>
               </Disclosure.Button>
               <Disclosure.Button className="block">
-                <Link href="/commitments" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  Commitments
-                </Link>
-              </Disclosure.Button>
-              <Disclosure.Button className="block">
-                <Link href="/careers" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
-                  Careers
+                <Link href="/contact" className="rounded-md px-3 py-2 text-md font-medium text-gray-600">
+                  CONTACT US
                 </Link>
               </Disclosure.Button>
             </div>
