@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div class=" mx-auto max-w-7xl "
          style={{
       backgroundImage: `url(${head2.src})`,
-      width: '98vw',
+      width: '100vw',
       height: '100vh',
      
     }}>        
