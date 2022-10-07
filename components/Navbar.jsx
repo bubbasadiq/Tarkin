@@ -8,11 +8,11 @@ export default function Navbar() {
     <Disclosure as="nav">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-full px-4 lg:px-16 lg:px-8" >
-            <div className="flex h-16 items-center fixed bg-[#FFFFFF] mx-2"  style={{width:'100%',zIndex:100}}>
+          <div className="mx-auto max-w-full " >
+            <div className="flex h-16 items-center fixed bg-[#FFFFFF] "  style={{width:'100%',zIndex:100}}>
               <div className="flex flex-1 items-center space-between ">
               <a href='/'>
-                <div className="flex-shrink-0">
+              <div className="flex-shrink-0 ml-12">
                   <img
                     className="block h-8 w-auto lg:hidden"
                     src="/logo1.svg"
@@ -26,13 +26,13 @@ export default function Navbar() {
                 </div>
                 </a>
                 <div className="hidden  sm:block " style={{marginLeft:'auto', marginRight:'auto', textAlign:'center'}}>
-                  <div className="flex space-x-4 text-gray-500">
+                  <div className="flex space-x-4 text-center justify-center alingn-center text-gray-500">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md  py-2 text-md text-gray-500 font-medium ">
                       HOME
                     </Link>
                    
-                    <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-white">
+                    <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-white underline-offset-auto	 ">
                       ABOUT US
                     </Link>
                    

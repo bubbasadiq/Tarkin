@@ -38,7 +38,7 @@ export default function HomeNavBar() {
       {({ open }) => (
         <>
           <div className="mx-auto max-w-full " >
-            <div className="flex h-16 items-center fixed" style={{width:'100%',zIndex:100, backgroundColor: !navbarColor?transparent:transparent, backdropFilter: "blur(4px)"}}>
+            <div className="flex h-16 items-center fixed" style={{width:'100%',zIndex:15, backgroundColor: !navbarColor?transparent:transparent, backdropFilter: "blur(4px)"}}>
               <div className="flex  flex-1 items-center space-between ">
                 <div className="flex-shrink-0 ml-12">
                   <img
@@ -69,7 +69,7 @@ export default function HomeNavBar() {
                   </div>
                 </div>
               </div>
-              <div className="-mr-2 flex sm:hidden" style={{zIndex:100}}>
+              <div className="-mr-2 flex sm:hidden" style={{zIndex:99}}>
                 {/* Mobile menu button */}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
@@ -83,7 +83,7 @@ export default function HomeNavBar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="sm:hidden" style={{zIndex:99}}>
             <div className="space-y-1 px-2 pt-2 pb-3">
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
               <Disclosure.Button className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white">
