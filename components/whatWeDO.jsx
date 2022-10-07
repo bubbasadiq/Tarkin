@@ -45,7 +45,11 @@ export default function WhatWeDo() {
   </div>
     </main>
   <main className=" mb-10 w-full    flex" style={{backgroundColor:"#FFFFFF"}}>
-    <div className="flex mt-24 " style={{width:'60%', flexDirection:'column'}}>
+    <div className="flex mt-0 " style={{width:'60%', flexDirection:'column'}}>
+      <div className="mr-0 ml-auto"   >
+      <Image src={FlowerUp} width={200} height={200} />   
+
+      </div>
    <div  className="  ml-32">
     <h3 className="mt-4 font-serif   font-bold  w-96 text-2xl  " style={{width: '70%'}}>
     We help you make profits while managing your farm inventory

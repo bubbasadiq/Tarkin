@@ -54,10 +54,11 @@ export default function Values() {
 <main className=" mb-1 w-50    flex bg-[#F5FFF5]" >
     
 
-<div class="flex-auto w-50   md:max-w-2xl sm:col-span-2 mt-40" style={{position:'relative'}}> 
-<div style={{position:'absolute', width:50, top:0, right:0}}>   
-         <Image src={FlowerUp} width={30} height={30} />   
-</div>
+<div className="flex mt-0 " style={{width:'60%', flexDirection:'column'}}>
+<div className="mr-0 ml-auto"   >
+      <Image src={FlowerUp} width={200} height={200} />   
+
+  </div>
 
 
 <div>
