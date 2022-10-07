@@ -1,15 +1,44 @@
 import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
+import React, { useState } from 'react';
 
 
 export default function HomeNavBar() {
+  const [navbarColor, setNavbarColor] = React.useState(false);
+  const [collapseOpen, setCollapseOpen] = React.useState(false);
+  const [acctType, setActType] = useState('')
+  const [login, setLogin] = useState(false)
+  const [site, setSite] =useState('')
+
+  React.useEffect(() => {
+    const updateNavbarColor = () => {
+      if (
+        document.documentElement.scrollTop > 399 ||
+        document.body.scrollTop > 399
+      ) {
+        setNavbarColor(false);
+      } else if (
+        document.documentElement.scrollTop < 400 ||
+        document.body.scrollTop < 400
+      ) {
+        setNavbarColor(true);
+      }
+    };
+
+    window.addEventListener("scroll", updateNavbarColor);
+    return function cleanup() {
+      window.removeEventListener("scroll", updateNavbarColor);
+    };
+  });
+  let transparent1 = "red"
+  let transparent = `linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.0002) 119.59%)`
   return (
     <Disclosure as="nav">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-full " >
-            <div className="flex h-16 items-center fixed" style={{width:'100%',zIndex:100, backgroundColor:'linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.0002) 119.59%)', backdropFilter: "blur(4px)"}}>
+            <div className="flex h-16 items-center fixed" style={{width:'100%',zIndex:100, backgroundColor: !navbarColor?transparent:transparent, backdropFilter: "blur(4px)"}}>
               <div className="flex  flex-1 items-center space-between ">
                 <div className="flex-shrink-0 ml-12">
                   <img
@@ -27,7 +56,7 @@ export default function HomeNavBar() {
                   <div className="flex space-x-4 text-center justify-center alingn-center text-white">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <Link href="/" className="rounded-md px-3 py-2 text-md text-white font-medium ">
-                      HOME
+                      HOME 
                     </Link>
                    
                     <Link href="/about" className="rounded-md px-3 py-2 text-md font-medium text-white">

@@ -8,17 +8,17 @@ export default function ContactUs() {
     <>
         <main className=" justify-center    flex  items-stretch" style={{backgroundColor:"#FFFFFF"}}>
       <div className=" item-center mt-40 ">
-    <h1  className="mt-4 align-center    font-bold font-serif text-6xl tracking-tight text-gray-1000  sm:mt-5  ">
+    <h1  className="mt-4 align-center text-center   font-bold font-serif text-5xl tracking-tight text-gray-1000  sm:mt-5  ">
          Contact Us
     </h1>
   
-  <p  className="mt-4  text-sm align-center item-center  font-sans text-1xl tracking-tight text-gray-500  sm:mt-5  ">
+  <p  className="mt-4  text-sm text-center align-center item-center  font-sans text-1xl    text-gray-500  sm:mt-5  ">
   Have something to say to us? Feel free to send us a message.
       </p>
       </div>
 </main>
       <div className="grid grid-cols-2 gap-1">
-    <div className=" flex-column ml-20 w-50">
+    <div className=" flex-column ml-20 " style={{width:'50%'}}>
     <div className="flex flex-row mt-10 mb-20" >
     <div className="mx-0 mr-10">
     <label htmlFor="full-name" className="">

@@ -84,7 +84,7 @@ export default function Footer() {
                     alt="Tarkin logo"
                   />
                 </div>
-                <h3 className="text-base font-bold font-serif text-2xl">Tarkin
+                <h3 className="text-base font-bold font-serif w-64 text-3xl">
                 Making the world’s food supply more inclusive
                 </h3>
                

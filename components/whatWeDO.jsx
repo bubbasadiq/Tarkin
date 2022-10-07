@@ -19,7 +19,7 @@ export default function WhatWeDo() {
           
       </div>
     </div>
-    <main className="bg-gradient-to-br w-full    flex" style={{backgroundColor:"#F5FFF5"}}>
+    <main className="w-full    flex" style={{backgroundColor:"#F5FFF5"}}>
     <div class="flex-auto w-50 ml-20 ">
     <div class="relative" style={{marginTop:100}}>
     <div className="absolute top-1 left-auto right-10 ">
@@ -36,7 +36,7 @@ export default function WhatWeDo() {
     <h1  className="mt-4 uppercase font-sans  w-60 text-1xl tracking-tight text-gray-400  ">
     What does Tarkin do?
     </h1>
-    <h3 className="mt-4 font-serif  w-96 text-2xl  ">
+    <h3 className="mt-4 font-serif   text-2xl  ">
     Solving the global food supply and security problems
     </h3>
     <h6 className="mt-4 mr-0 font-sans font-normal text-sm text-left leading-7 w-2/3  ">

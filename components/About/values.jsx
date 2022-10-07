@@ -13,37 +13,37 @@ export default function Values() {
   return (
     <>
    
-    <main className="grid grid-cols-1  justify-center" style={{backgroundColor:"#FFFFFF"}}>
-    <div className=" items-center   ">
+    <main className="grid grid-cols-1 w-full  justify-center" style={{backgroundColor:"#FFFFFF"}}>
+    <div className=" items-center mb-20  ">
           
          <h1  className="mt-10 align-center     text-4xl  	text-center  font-normal font-serif  text-gray-1000   "
           >
           Our Values
          </h1>         
   
-    <h1  className="mt-4 align-center mx-20  text-center  font-sans text-1xl tracking-tight text-gray-500  sm:mt-5  ">
-    <span className="font-bold">We Have Soul!</span> We exist to supply the world with food. This makes us the soul of the supply chain that connects all value chain players and stakeholders in a way works for them.   </h1>
+    <h1  className="mt-4 align-center mx-20 mx-40  text-center  font-sans text-1xl text-[#07352E]   ">
+    <span className="font-bold">We Have Soul!</span> We exist to supply the world with food. This makes us the <span className="font-bold"> soul </span> of the supply chain that connects all value chain players and stakeholders in a way works for them.   </h1>
     </div>
      
-    <div className="flex flex-row mt-10 mb-20 alin-center justify-center" >
-      <div className="flex-column w-40">
+    <div className="flex flex-row mt-10 mb-20 ml-20 mr-20 items-stretch" >
+      <div className="flex-column ">
     <Image width={50} height={50}   src={start} alt=""/>
     <div className="font-bold font-sans">S is for Start</div>
     <div className="font serif text-1xl">We start with the basics, and then build on that.</div>
     </div>
-    <div className="mx-10 flex-column w-40">
+    <div className="mx-10 flex-column ">
     <Image width={50} height={50}   src={optimization} alt=""/>
     <div className="font-bold font-sans">O is for Optimization</div>
     <div className="font serif text-1xl">Make every supply chain as efficient as possible—becoming more productive and cost-effective.</div>
    
     </div>
-    <div className="mx-10flex-column w-40">
+    <div className="mx-10flex-column ">
     <Image width={50} height={50}   src={global} alt=""/>
     <div className="font-bold font-sans">U is for Universal</div>
     <div className="font serif text-1xl">All farmers deserve the same access to technology, tools, and information they need to succeed in their market.</div>
    
     </div>
-    <div className="mx-10 flex-column w-40">
+    <div className="mx-10 flex-column ">
     <Image width={50} height={50}   src={local} alt=""/>
     <div className="font-bold font-sans">L is for Local</div>
     <div className="font serif text-1xl">Local farmers are best suited to the needs and demands of global markets, so we’ve made this for them!</div>

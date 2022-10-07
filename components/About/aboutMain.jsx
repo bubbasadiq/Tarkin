@@ -24,22 +24,22 @@ export default function AboutMain() {
     <main className="grid grid-cols-1  justify-center" style={{backgroundColor:"#FFFFFF"}}>
     <div className=" items-center mt-20  ">
           
-         <h1  className="mt-40 align-center     text-4xl  	text-center  font-normal font-serif  text-gray-1000   "
+         <h1  className="mt-40 align-center     text-4xl  	text-center  font-normal font-serif  text-[#07352E]   "
           >
           Our Vision
          </h1>         
   
-    <h1  className="mt-4 align-center mx-20  text-center  font-sans text-1xl tracking-tight text-gray-500  sm:mt-5  ">
+    <h1  className="mt-4 align-center mx-40  text-center  font-normal  font-sans text-1xl  text-[#07352E] ">
   To build a global network of food supply that enables small and marginal farmers to sell produce across the world while ensuring that food never goes to waste.    
    </h1>
     </div>
-    <div className=" items-center mt-20  ">
+    <div className=" items-center mt-20 mb-20 ">
           <h1  className="mt-4 align-center     text-4xl  	text-center  font-normal font-serif  text-gray-1000   "
           >
           Our Mission
          </h1>         
   
-    <h1  className="mt-4 align-center mx-20 justify-center  text-center  font-sans text-1xl tracking-tight text-gray-500  sm:mt-5  ">
+    <h1  className="mt-4 align-center mx-20 justify-center  text-center  font-sans text-1xl  text-[#07352E]  ">
     To become the most progressive and sustainable agriculture business enterprise powering the food supply chain in Africa and across the world through accessible, affordable and cutting-edge technology.
 </h1>       
     </div>

@@ -12,7 +12,7 @@ export default function NewsLetter() {
   <h1  className="mt-4 align-center py-12  font-bold font-serif text-1xl tracking-tight text-gray-1000  sm:mt-5  ">
   Stay updated with our weekly newsletter  </h1>
     </div>
-    <div className="flex-column py-12 ml-auto mr-20">
+    <div className="flex-column py-12 ml-auto mr-20 ">
       <div>
       <label >Email Address</label>
       </div>
@@ -23,7 +23,7 @@ export default function NewsLetter() {
                 type="email"
                 autoComplete="email"
                 required
-                className="bg-transparent  rounded-md border border-[#80CB7B]  py-3 placeholder-gray-500 w-96 "
+                className="bg-transparent  rounded-md border border-[#80CB7B]  py-3 placeholder-gray-500 w-80 "
                 placeholder="feliciaarid@gmail.com"
               />
               

@@ -3,14 +3,34 @@ import head2 from "../public/assets/fp.png"
 import toplayer from "../public/assets/toplayer.png"
 import { Button, Input } from "antd";
 import { ArrowRightOutlined, PlusOutlined } from "@ant-design/icons";
+import React from "react";
 
 export default function HeroSection() {
+  let pageHeader = React.createRef();
+
+  React.useEffect(() => {
+    if (window.innerWidth > 991) {
+      const updateScroll = () => {
+        let windowScrollTop = window.pageYOffset / 3;
+        pageHeader.current.style.transform =
+          "translate3d(0," + windowScrollTop + "px,0)";
+      };
+
+      window.addEventListener("scroll", updateScroll);
+      return function cleanup() {
+        window.removeEventListener("scroll", updateScroll);
+      };
+    }
+  });
+
   return (
     <main className="bg-gradient-to-br inline-block bg-gray-500  h-screen"   style={{
       backgroundImage: `url(${head2.src})`,
       width: '100vw',
       height: '97vh',     
-    }}>
+    }}
+    ref={pageHeader}
+    >
       <Image src={toplayer} layout='fill' style={{ background: 'linear-gradient(101.59deg, #04201B 67.69%, rgba(7, 53, 46, 0) 144.58%)',
 opacity: 0.4}}/>
       <div className="mx-0">
