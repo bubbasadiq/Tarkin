@@ -1,35 +1,23 @@
-import Navbar from "../components/Navbar.jsx";
 import HeroSection from "../components/HeroSection.jsx";
-import SupportFarmers from "../components/SupportFarmers.jsx";
-import Blog from "../components/Blog.jsx";
-import Footer from "../components/Footer.jsx";
-import Model from "../components/Model.jsx";
-import HelpingFarmers from "../components/helpingFarmers.jsx";
-import WhatWeDo from "../components/whatWeDO.jsx";
-import WhyUS from "../components/whyUs.jsx";
-import Partners from "../components/partners.jsx";
-import Faq from "../components/faq.jsx";
-import NewsLetter from "../components/newsLetterSignUp.jsx";
-import HomeNavBar from "../components/HomeNav.jsx";
-import Head from "next/head.js";
+import FoodSupply from "../components/FoodSupply.jsx";
+import FarmInventory from "../components/FarmInventory.jsx";
+import WhyTarkin from "../components/WhyTarkin.jsx";
+import Partners from "../components/Partners.jsx";
+import Faqs from "../components/Faq.jsx";
+import Newsletter from "../components/Newsletter.jsx";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Head>
-      <meta charset="UTF-8"/>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Tarkin</title>
-        <link rel="icon" href="logo.svg" />
-      </Head>
-      <HomeNavBar />
+      
       <HeroSection />
-      <WhatWeDo/>
-      <WhyUS/>
-      <Partners/>
-      <Faq/>
-      <NewsLetter/>
-     
+      <FoodSupply />
+      <FarmInventory />
+      <WhyTarkin />
+      <Partners />
+      <Faqs />
+      <Newsletter />
       <Footer />
     </>
   )
