@@ -62,13 +62,13 @@ export default function Example() {
           <div className="mt-12 xl:mt-0">
             <ul className='text-lg text-white font-bold space-y-6'>
               <li>
-                <a>About us</a>
+                <a href='/about'>About us</a>
               </li>
               <li>
-                <a>Contact us</a>
+                <a href="/contact">Contact us</a>
               </li>
               <li>
-                <a>FAQs</a>
+                <a href="/">FAQs</a>
               </li>
             </ul>
           </div>

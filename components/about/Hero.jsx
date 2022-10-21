@@ -3,9 +3,9 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '/' },
   { name: 'About', href: '#' },
-  { name: 'Contact Us', href: '#' },
+  { name: 'Contact Us', href: '/contact' },
 ]
 
 export default function Hero() {
