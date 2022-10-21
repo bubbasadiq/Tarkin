@@ -85,11 +85,11 @@ export default function Example() {
           </div>
           <ul className='flex items-center font-normal text-lg text-slate-300 space-x-3'>
             <li className='hover:text-white'>
-              <Link href="/terms">Terms and Conditions</Link>
+              <Link href="/#">Terms and Conditions</Link>
             </li>
             <li className='text-lg'>.</li>
             <li className='hover:text-white'>
-              <Link href="/privacy">Privacy Policy</Link>
+              <Link href="/#">Privacy Policy</Link>
             </li>
           </ul>
           <p className="mt-8 font-normal text-lg text-gray-400 md:mt-0">
