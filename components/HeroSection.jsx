@@ -24,6 +24,7 @@ export default function HeroSection() {
                   <span className="block text-white">Build a Resilient</span>
                   <span className="block text-white">Food Supply Chain</span>
                 </h1>
+                
                 <p className="mt-6 max-w-xl font-normal text-left text-lg text-white">
                   We are using technology to reduce post harvest loss encountered by farmers while improving access to high quality commodities.
                 </p>
