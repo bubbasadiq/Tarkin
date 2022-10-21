@@ -14,12 +14,13 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-
+let transparent = `linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.0002) 119.59%)`
 export default function Navbar() {
   return (
-    <div className="relative pt-6 pb-16 sm:pb-24">
+    <div className="relative pt-0 pb-16 sm:pb-24 ">
       <Popover>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
+
+        <div className=" mx-auto  fixed max-w-7xl px-4 sm:px-6 " style={{ width:"100%", zIndex:100,  backgroundColor: transparent, backdropFilter: "blur(4px)" }}>
           <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
             <div className="flex flex-1 items-center md:absolute md:inset-y-0 md:left-0">
               <div className="flex w-full items-center justify-between md:w-auto">
