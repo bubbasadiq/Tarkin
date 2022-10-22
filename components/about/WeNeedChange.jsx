@@ -12,8 +12,14 @@ export default function WeNeedAChange() {
                   <h1 className="text-3xl font-bold tracking-tight text-green-primary">
                     We need a change
                   </h1>
-                  <ul>
-                    
+                  <ul class="list-disc ml-3 indent-2">
+                    <li > Despite increasing pressures on food supply, about one-third of the total food produced for human consumption is wasted. </li>
+                    <li >Smallscale farmers lack resources needed to comply with industry standards. Especially monitoring environmental and supply chain variables.</li>
+
+                    <li>The quality of food products are not adequately maintained during primary production, processing, distribution & storage due to lack of neccesary infrastructure and technology.</li>
+
+                    <li>post harvest storage services aren't accessible for most of these farmers. As a result, millions of tons of produce are lost due to poor storage. </li>
+
                   </ul>
                 </div>
               </div>
